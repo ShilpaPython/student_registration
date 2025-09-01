@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1>📚 Student Registration System</h1>
+    <nav>
+        <a href="{{ url_for('register') }}">Register</a> |
+        <a href="{{ url_for('students') }}">View Students</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
